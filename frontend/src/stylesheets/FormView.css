@@ -1,0 +1,31 @@
+.form-view > label {
+  padding: 0px 0px 10px;
+}
+
+#add-form {
+  text-align: center;
+}
+
+.success {
+  width: 35vw;
+  height: 35px;
+  background-color: #b7fbb7;
+  color: #025f02;
+  font-size: larger;
+  border-radius: 10px;
+  position: fixed;
+  top: -35%;
+  left: 50%;
+  opacity:0;
+  transform: translateX(-50%);
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s ease;
+}
+
+.show_success {
+  top:10%;
+  opacity: 0.9;
+}
